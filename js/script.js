@@ -83,7 +83,7 @@ formulario.addEventListener('submit', function (evento) {
     } = datos;
 
     if (nombre === '' || email === '' || mensaje === '') {
-        mostrarAlerta('Todos los campos son obligatorios', 'pinga');
+        mostrarAlerta('Todos los campos son obligatorios', 'error');
         return;
     }
 
